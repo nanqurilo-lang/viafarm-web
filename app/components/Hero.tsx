@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="grid grid-cols-2 items-center px-20 py-10 bg-green-50">
+    <section className="grid grid-cols-2 items-center px-25 py-10 bg-green-50">
       
       {/* LEFT */}
       <div className="max-w-lg">
@@ -32,12 +32,12 @@ VieFrame is a digital marketplace which connects local vendors with consumers to
       </div>
 
       {/* RIGHT */}
-      <div>
+      <div className="flex justify-end mt-6 ">
         <Image
-          src="/vegetables.png"
+          src="/vegetable.png"
           alt="Vegetables"
           width={600}
-          height={400}
+          height={900}
         />
       </div>
     </section>
