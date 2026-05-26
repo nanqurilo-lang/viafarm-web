@@ -12,10 +12,10 @@ export default function ContactPage() {
         
 
       {/* HERO SECTION */}
-      <section className="relative h-[300px]">
+      <section className="relative h-[350px]">
 
         <Image
-          src="/fruits-banner.jpg"
+          src="/fruits-banner.png"
           alt="Banner"
           fill
           className="object-cover"
@@ -24,9 +24,9 @@ export default function ContactPage() {
         {/* DARK OVERLAY */}
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
 
-          <h1 className="text-white text-6xl font-bold tracking-[8px]">
+          {/* <h1 className="text-white text-6xl font-bold px-2=6 tracking-[8px]">
             CONTACT US
-          </h1>
+          </h1> */}
 
         </div>
       </section>
@@ -34,7 +34,7 @@ export default function ContactPage() {
       {/* CONTACT BOX */}
       <section className="px-10 py-20">
 
-        <div className="max-w-6xl mx-auto border border-[#9ad35d] rounded-2xl bg-[#f8fbf2] p-14">
+        <div className="max-w-5xl mx-auto border border-[#9ad35d] rounded-2xl bg-[#f8fbf2] p-8">
 
           <div className="grid grid-cols-2 items-center gap-10">
 
@@ -46,7 +46,7 @@ export default function ContactPage() {
 
                 <Phone className="text-[#5b9e1b] w-8 h-8" />
 
-                <p className="text-4xl text-black font-medium">
+                <p className="text-3xl text-black font-medium">
                   +91 2232435345
                 </p>
               </div>
@@ -56,7 +56,7 @@ export default function ContactPage() {
 
                 <Mail className="text-[#5b9e1b] w-8 h-8" />
 
-                <p className="text-4xl text-black font-medium">
+                <p className="text-3xl text-black font-medium">
                   xyz@gmail.com
                 </p>
               </div>
@@ -66,7 +66,7 @@ export default function ContactPage() {
 
                 <MapPin className="text-[#5b9e1b] w-8 h-8" />
 
-                <p className="text-4xl text-black font-medium">
+                <p className="text-3xl text-black font-medium">
                   xyz
                 </p>
               </div>
@@ -76,7 +76,7 @@ export default function ContactPage() {
 
                 <Clock className="text-[#5b9e1b] w-8 h-8" />
 
-                <p className="text-4xl text-black font-medium">
+                <p className="text-3xl text-black font-medium">
                   xyz
                 </p>
               </div>

@@ -11,13 +11,13 @@ const page = () => {
   return (
     <div>
 
-<Header />
+{/* <Header /> */}
 <Hero />
 <About />
 <Benefits />
 <HowItWorks />
 <Merits />
-<Footer />
+{/* <Footer /> */}
 
 
 

@@ -48,7 +48,7 @@ export default function Header() {
       {/* NAVBAR */}
       <nav>
         <div className="flex gap-6 text-black font-medium">
-          <a href="#" className="hover:text-green-700">
+          <a href="/" className="hover:text-green-700">
             Home
           </a>
 
